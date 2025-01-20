@@ -1,0 +1,158 @@
+{
+        "intents": [
+          {
+            "intent": "greeting",
+            "examples": [
+              "Hi",
+              "Hello",
+              "Hey",
+              "Good morning",
+              "Good evening",
+              "Hi there",
+              "Hello there",
+              "Greetings"
+            ],
+            "responses": [
+              "Hello! How can I assist you today?",
+              "Hi there! What can I do for you?",
+              "Hey! Need any help?",
+              "Hello! How can I help you?",
+              "Hi! What brings you here today?"
+            ]
+          },
+          {
+            "intent": "goodbye",
+            "examples": [
+              "Bye",
+              "Goodbye",
+              "See you later",
+              "Talk to you soon",
+              "Catch you later",
+              "Take care",
+              "See ya"
+            ],
+            "responses": [
+              "Goodbye! Have a great day!",
+              "See you later! Take care!",
+              "Bye! Feel free to reach out anytime.",
+              "Goodbye! Stay safe!",
+              "See you soon!"
+            ]
+          },
+          {
+            "intent": "thank_you",
+            "examples": [
+              "Thanks",
+              "Thank you",
+              "I appreciate it",
+              "Many thanks",
+              "Thanks a lot",
+              "Much appreciated",
+              "Thanks so much"
+            ],
+            "responses": [
+              "You're welcome!",
+              "Happy to help!",
+              "Anytime! Let me know if you need anything else.",
+              "You're most welcome!",
+              "Glad I could assist!"
+            ]
+          },
+          {
+            "intent": "product_inquiry",
+            "examples": [
+              "What products do you have?",
+              "Tell me about your services",
+              "What do you offer?",
+              "Do you sell electronics?",
+              "Can you list your products?",
+              "What categories do you have?",
+              "Do you sell clothing?"
+            ],
+            "responses": [
+              "We offer a wide range of products. Could you be more specific about what you're looking for?",
+              "We have electronics, home appliances, and much more! What are you interested in?",
+              "Our services include product delivery, installation, and support. Let us know what you need!",
+              "We offer products in various categories, including electronics, fashion, and home essentials.",
+              "Our product catalog is extensive! Feel free to ask about specific items."
+            ]
+          },
+          {
+            "intent": "order_status",
+            "examples": [
+              "Where is my order?",
+              "What is the status of my order?",
+              "Can you track my order?",
+              "I want to check my order status",
+              "Has my order been shipped?",
+              "Is my package on the way?",
+              "When will my order arrive?"
+            ],
+            "responses": [
+              "Can you please provide your order ID so I can check the status for you?",
+              "Let me look up your order. Could you share your order number?",
+              "I'll need your order details to check the status. Please share your order ID.",
+              "Your order is being processed. Could you provide your order ID for more details?",
+              "I can check that for you. Please provide your order number."
+            ]
+          },
+          {
+            "intent": "complaint",
+            "examples": [
+              "I have a complaint",
+              "I'm not happy with my purchase",
+              "I want to report an issue",
+              "This product is defective",
+              "The service was bad",
+              "I'm dissatisfied",
+              "My order is incorrect"
+            ],
+            "responses": [
+              "I'm sorry to hear that. Could you please provide more details so we can resolve this for you?",
+              "We apologize for the inconvenience. Please share your order details so we can assist you.",
+              "Your feedback is important to us. Let us know the issue, and we will address it promptly.",
+              "I understand your frustration. Can you give us more details about the problem?",
+              "We regret the inconvenience caused. Please share your details so we can rectify this."
+            ]
+          },
+          {
+            "intent": "shipping_inquiry",
+            "examples": [
+              "Do you ship internationally?",
+              "What are your shipping options?",
+              "How long does shipping take?",
+              "What are your delivery charges?",
+              "Is express shipping available?",
+              "Do you deliver on weekends?",
+              "Can I track my shipment?"
+            ],
+            "responses": [
+              "Yes, we ship internationally. Delivery times may vary based on location.",
+              "We offer standard, express, and same-day shipping. Which one do you prefer?",
+              "Shipping times depend on your location and selected option. Standard shipping takes 5-7 days.",
+              "Delivery charges depend on the shipping method and destination. Would you like details?",
+              "Express shipping is available at an additional cost. Let me know if you'd like to proceed."
+            ]
+          },
+          {
+            "intent": "return_policy",
+            "examples": [
+              "What is your return policy?",
+              "Can I return a product?",
+              "How do I initiate a return?",
+              "What items are eligible for return?",
+              "Is there a time limit for returns?",
+              "Do you offer free returns?",
+              "Can I exchange an item?"
+            ],
+            "responses": [
+              "Our return policy allows returns within 30 days of purchase. Items must be unused and in original packaging.",
+              "You can initiate a return by contacting our support team or visiting the returns section on our website.",
+              "Returns are eligible for most items within 30 days. Some restrictions apply.",
+              "Free returns are available for certain products. Would you like to know more?",
+              "Exchanges are possible for eligible items. Let me know if you'd like to start the process."
+            ]
+          }
+        ]
+      }
+      
